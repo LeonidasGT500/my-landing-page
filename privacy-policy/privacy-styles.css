@@ -65,7 +65,7 @@ main section {
 @media (max-width:600px) {
 
     header h2 {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     .title {
@@ -73,7 +73,7 @@ main section {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:350px) {
     nav a {
         font-size: 0.9rem;
     }
