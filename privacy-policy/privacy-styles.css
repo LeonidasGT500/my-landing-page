@@ -64,6 +64,16 @@ main section {
 
 @media (max-width:600px) {
 
+    header {
+        height: 150px;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+
     header h2 {
         font-size: 1.2rem;
     }
@@ -76,6 +86,10 @@ main section {
 @media (max-width:350px) {
     nav a {
         font-size: 0.9rem;
+    }
+
+    header {
+        height: 150px;
     }
 
     header h1 {
