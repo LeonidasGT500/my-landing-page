@@ -11,6 +11,15 @@ body {
 nav {
     background-color: #f5f5f5;
     padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbartop {
+    width: 100%;
+    max-width: 1920px;
     text-align: right;
 }
 
