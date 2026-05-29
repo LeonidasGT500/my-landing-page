@@ -1,140 +1,180 @@
 <!DOCTYPE html>
-<html lang="eng" ?>
-
-<!-- Head: Basic Setup-->
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MiniList App</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="MiniList is a minimal to-do app with no accounts, no cloud sync, no tracking and no distractions." />
+  <title>MiniList — Minimal To-Do App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Navigation Section -->
-    <nav>
-        <!-- Nav Links -->
-        <div class="navbartop">
-            <a href="#">Home</a>
-            <a href="privacy-policy/privacy-policy.html">Privacy Policy</a>
-        </div>
+  <div class="page-shell">
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="MiniList home">
+        <img src="icon.png" alt="MiniList icon">
+        <span>MiniList</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+      </div>
     </nav>
 
-    <!-- Header Section -->
-    <header>
-        <!-- Main Heading -->
-        <h1>
-            MiniList
-        </h1>
-        <!-- Sub Heading -->
-        <h2>
-            Simple tasks. Zero clutter.
-        </h2>
-        <div class="container">
-            <!-- Buttons -->
-            <div class="button">
-                <a href="https://apps.apple.com/us/app/minilist-simple-to-do-list/id6760142882" target="_blank"
-                    rel="noopener noreferrer">
-                    Download on iOS</a>
-            </div>
-            <div class="button">
-                <a href="https://play.google.com/store/apps/details?id=app.bitpull.todoapp" target="_blank"
-                    rel="noopener noreferrer">
-                    Download on Android</a>
-            </div>
+    <header id="top" class="hero-section">
+      <section class="hero-copy">
+        <p class="pill">Minimal. Powerful. Yours.</p>
+        <h1>Stay focused.<br>Stay organized.<br><span>Finish what matters.</span></h1>
+        <p class="hero-text">MiniList is a minimal to-do app for people who want clarity instead of complexity.</p>
+        <div class="proof-list" aria-label="MiniList promises">
+          <span><b>✓</b>No accounts.</span>
+          <span><b>✓</b>No cloud syncing.</span>
+          <span><b>✓</b>No distractions.</span>
         </div>
+        <p class="hero-text small">Just a fast and satisfying way to organize your tasks and goals.</p>
+        <div id="download" class="download-row">
+          <a class="download-button" href="https://apps.apple.com/us/app/minilist-simple-to-do-list/id6760142882"
+            target="_blank" rel="noopener noreferrer">&nbsp; Download on iOS</a>
+          <a class="download-button" href="https://play.google.com/store/apps/details?id=app.bitpull.todoapp"
+            target="_blank" rel="noopener noreferrer">▶&nbsp; Download on Android</a>
+        </div>
+        <p class="microcopy"><br>100% offline. Your data never leaves your device.</p>
+      </section>
 
+      <section class="hero-art hero-scene" aria-label="MiniList app preview">
+        <img src="hero-scene-latest.png" alt="MiniList app running on a standing iPhone on a calm desk">
+      </section>
     </header>
 
-    <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>A Simple Way To Get Things Done</h2>
-            <p>MiniList is a minimalist task list app designed to help you focus on what matters: completing your tasks.
-                <br>
-                No distractions. No unnecessary features. Just a clean, simple checklist.
-            </p>
-        </section>
-        <section>
-            <h2>Why MiniList?</h2>
-            <p> Most task apps are overloaded with features.<br>
-                MiniList is different.</p>
-            <p> It's built for people who want to:</p>
-            <ul>
-                <li>Write tasks quickly.</li>
-                <li>Stay focused.</li>
-                <li>Feel progress instantly.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Features</h2>
-            <p>Simple Tasks List:</p>
-            <ul>
-                <li>Add tasks in seconds.</li>
-                <li>Clean and intuitive interface.</li>
-            </ul>
-            <p>Mark Tasks as Done:</p>
-            <ul>
-                <li>Tap to complete.</li>
-                <li>Instant visual feedback.</li>
-            </ul>
-            <p>Stay Organized:</p>
-            <ul>
-                <li>Remove tasks anytime.</li>
-                <li>Keep your list fresh and relevant.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Light Or Dark: Your Choice</h2>
-            <ul>
-                <li>System default.</li>
-                <li>Light mode.</li>
-                <li>Dark mode.</li>
-            </ul>
-            <p>Designed for comfort in any environment.</p>
-        </section>
-        <section>
-            <h2>100% Private & Offline</h2>
-            <ul>
-                <li>No internet connection required.</li>
-                <li>No login or account.</li>
-                <li>No data collection.</li>
-            </ul>
-            <p>Your tasks stay on your device.</p>
-        </section>
-        <section>
-            <h2>Built-in Motivation</h2>
-            <ul>
-                <li>Sound feedback when completing tasks.</li>
-                <li>Celebration animations when your list is empty.</li>
-            </ul>
-            <p>Because small wins matter.</p>
-        </section>
-        <section>
-            <h2>No Complexity - Just Clarity</h2>
-            <p>MiniList does NOT include:</p>
-            <ul>
-                <li>Calendars.</li>
-                <li>Notification.</li>
-                <li>Sync or accounts.</li>
-            </ul>
-            <p> It's not a planner.<br>
-                It's a simple checklist that works.</p>
-        </section>
-        <section>
-            <h2>Who Is It For?</h2>
-            <ul>
-                <li>Minimalists.</li>
-                <li>Focus-driven users.</li>
-                <li>Anyone tired of complex productivity apps.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Start Simple - Stay Focused</h2>
-            <p>Download MiniList and experience the power of doing simply, better.</p>
-        </section>
+      <section id="features" class="feature-strip" aria-label="MiniList features">
+        <article><span>⚡</span>
+          <h3>Quick & Simple</h3>
+          <p>Add tasks in a second</p>
+        </article>
+        <article><span>↕</span>
+          <h3>Drag & Drop</h3>
+          <p>Reorder with ease</p>
+        </article>
+        <article><span>✓</span>
+          <h3>Satisfying</h3>
+          <p>Smooth completion animations</p>
+        </article>
+        <article><span>✨</span>
+          <h3>Stay Clean</h3>
+          <p>Clear completed tasks anytime</p>
+        </article>
+        <article><span>↩</span>
+          <h3>Undo</h3>
+          <p>Take back any action</p>
+        </article>
+        <article><span>🎨</span>
+          <h3>Themes</h3>
+          <p>Light, Dark or System</p>
+        </article>
+      </section>
 
+      <section class="real-life-section">
+        <div class="section-heading">
+          <h2>Real Life Ready</h2>
+          <p>Designed for your day, wherever it happens</p>
+        </div>
+        <div class="life-grid">
+          <article class="life-card">
+            <img src="life-plan.png" alt="A person holding an iPhone with MiniList open">
+            <div class="life-caption"><span>☀</span>
+              <div>
+                <h3>Plan your day</h3>
+                <p>Kick off the morning with clarity.</p>
+              </div>
+            </div>
+          </article>
+          <article class="life-card">
+            <img src="life-focus.png" alt="MiniList dark mode on an iPhone placed on a desk">
+            <div class="life-caption"><span>◐</span>
+              <div>
+                <h3>Focus anywhere</h3>
+                <p>Dark mode for deep work sessions.</p>
+              </div>
+            </div>
+          </article>
+          <article class="life-card">
+            <img src="life-win.png" alt="A person using MiniList outdoors">
+            <div class="life-caption"><span>✓</span>
+              <div>
+                <h3>Feel the win</h3>
+                <p>Celebrate small wins every day.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="privacy" class="privacy-panel">
+        <div class="section-heading white">
+          <h2>Your data stays with you</h2>
+          <p>MiniList is built with privacy at its core.</p>
+        </div>
+        <div class="privacy-grid">
+          <article><span>🔒</span>
+            <h3>100% Offline</h3>
+            <p>Works completely offline</p>
+          </article>
+          <article><span>👤</span>
+            <h3>No Accounts</h3>
+            <p>No sign ups. No personal data.</p>
+          </article>
+          <article><span>☁️</span>
+            <h3>No Cloud Sync</h3>
+            <p>Your data is never uploaded</p>
+          </article>
+          <article><span>🙈</span>
+            <h3>No Tracking</h3>
+            <p>We don’t collect. We don’t track.</p>
+          </article>
+          <article><span>🛡</span>
+            <h3>Always Private</h3>
+            <p>Your tasks. Your business. Your device.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <div class="section-heading">
+          <h2>Simple by design</h2>
+          <p>Everything you need. Nothing that gets in the way.</p>
+        </div>
+        <div class="faq-grid">
+          <article>
+            <h3>Does MiniList need an account?</h3>
+            <p>No. Open it and start adding tasks.</p>
+          </article>
+          <article>
+            <h3>Does it work offline?</h3>
+            <p>Yes. MiniList is offline-first and stores your tasks locally.</p>
+          </article>
+          <article>
+            <h3>Is there dark mode?</h3>
+            <p>Yes. You can use Light, Dark, or System theme.</p>
+          </article>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><img src="icon.png" alt="MiniList icon"><span>MiniList</span></a>
+      <div><a href="#features">Features</a><a href="privacy-policy/privacy-policy.html">Privacy Policy</a><a
+          href="#faq">FAQ</a></div>
+      <p>© 2026 MiniList. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
